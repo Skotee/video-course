@@ -1,10 +1,11 @@
 import { Component } from '@angular/core'
-import { MatCardModule } from '@angular/material/card'
+
+import { MaterialModule } from 'src/app/material.module'
 
 @Component({
   selector: 'app-video-course',
   standalone: true,
-  imports: [MatCardModule],
+  imports: [MaterialModule],
   templateUrl: './video-course.component.html',
   styleUrls: ['./video-course.component.scss'],
 })
