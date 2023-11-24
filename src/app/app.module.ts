@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
-import { MatInputModule } from '@angular/material/input' // Add this line
-import { MatFormFieldModule } from '@angular/material/form-field' // Add this line
+import { MatInputModule } from '@angular/material/input'
+import { MatFormFieldModule } from '@angular/material/form-field'
 
 import { SharedModule } from './shared/shared.module'
 import { AppRoutingModule } from './app-routing.module'
