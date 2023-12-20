@@ -1,11 +1,16 @@
 <form>
-  <mat-form-field class="example-full-width">
-    <mat-icon>search</mat-icon>
-    <input matInput type="search" placeholder="Ex. Pizza" value="Sushi">
+  <mat-form-field class="form-field" appearance="fill">
+    <mat-icon matPrefix>search</mat-icon>
+    <input matInput type="search" placeholder="Text to search" >
   </mat-form-field>
-  <button mat-raised-button color="primary" (click)="handleClick()" >Search</button>
+  <div class="align-button-with-input">
+  <button mat-raised-button color="primary" (click)="handleClick()" class="search_button" >Search</button>
+</div>
 </form>
 
-<button mat-button>
-  Add course
+<button mat-button color="primary" class="add_course_button">
+  + Add course
 </button> 
+<br>
+<br>
+<br>
