@@ -1,2 +1,11 @@
-<p>video-course-list works!</p>
-<app-video-course></app-video-course>
+<app-video-course 
+  *ngFor="let course of coursesList; trackBy:identify" 
+  [course]="course" 
+  (CourseIdEvent)="writeCourseId($event)"
+>
+</app-video-course>
+<mat-card>
+  <mat-card-content>
+    <button> Load more </button>
+  </mat-card-content>
+</mat-card>
